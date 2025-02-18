@@ -105,7 +105,7 @@ const main = async () => {
   console.log("✅ Bot iniciado exitosamente");
 
   // Configuración de Express para manejar el servidor web
-  const PORT = process.env.PORT || 3001; // Si Render proporciona el puerto, se usa, sino, por defecto será 3000
+  const PORT = process.env.PORT || 3000; // Si Render proporciona el puerto, se usa, sino, por defecto será 3000
 
   // Ruta para verificar que el servidor está funcionando
   app.get('/', (req, res) => {
