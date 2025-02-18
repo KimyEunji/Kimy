@@ -1,17 +1,9 @@
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import pkg from '@bot-whatsapp/bot';
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = pkg;
 import QRPortalWeb from '@bot-whatsapp/portal';
 import BaileysProvider from '@bot-whatsapp/provider/baileys';
 import MockAdapter from '@bot-whatsapp/database/mock';
 import fetch from 'node-fetch'; // Importamos fetch para hacer llamadas HTTP
-import express from 'express'; // Importamos Express
-import path from 'path'; // Importamos 'path' para gestionar rutas de archivos estáticos
-
-// Función para obtener el directorio actual en un módulo ESM
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 // Función para comunicarse con la API de Ollama
 const processMessage = async (message) => {
@@ -81,7 +73,6 @@ const flowConsulta = addKeyword('consultar')
 
 // Inicialización del bot
 const main = async () => {
-  const app = express(); // Asegúrate de crear `app` antes de usarlo
   const adapterDB = new MockAdapter();
   const adapterFlow = createFlow([flowWelcome, flowConsulta]);
   const adapterProvider = createProvider(BaileysProvider);
@@ -93,41 +84,10 @@ const main = async () => {
     database: adapterDB,
   });
 
-  // Configuración de la ruta estática para el portal QR
-  const staticPath = path.join(__dirname, 'public');
-  app.use(express.static(staticPath));
-
-  // Configuración de QRPortalWeb con el rootPath
-  QRPortalWeb({
-      rootPath: staticPath // Asegúrate de que el rootPath esté bien definido
-  });
+  // Configuración de QRPortalWeb
+  QRPortalWeb();
 
   console.log("✅ Bot iniciado exitosamente");
-
-  // Configuración de Express para manejar el servidor web
-  const PORT = process.env.PORT || 3000; // Si Render proporciona el puerto, se usa, sino, por defecto será 3000
-
-  // Ruta para verificar que el servidor está funcionando
-  app.get('/', (req, res) => {
-    res.send("Bot de WhatsApp en funcionamiento.");
-  });
-
-  // Función para manejar el error de puerto en uso y probar puertos consecutivos
-  const startServer = async (port) => {
-    try {
-      await app.listen(port);
-      console.log(`Server running on port ${port}`);
-    } catch (err) {
-      if (err.code === 'EADDRINUSE') {
-        console.log(`El puerto ${port} está en uso. Intentando con otro puerto...`);
-        startServer(port + 1); // Intenta el siguiente puerto
-      } else {
-        console.error(`❌ Error al iniciar el servidor: ${err.message}`);
-      }
-    }
-  };
-
-  startServer(PORT); // Inicia el servidor en el puerto definido
 };
 
 main();
