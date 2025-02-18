@@ -1,0 +1,188 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '68A7A22C71EFB6DA1328A3FCC57BD0AE',
+    participant: undefined
+  },
+  messageTimestamp: 1739892260,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    conversation: 'Consultar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Consultar',
+  from: '5214491043242'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
+  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  answer: 'Por favor, dime tu pregunta:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: 'FF682B09555496305951EB0ABFE0CF8F',
+    participant: undefined
+  },
+  messageTimestamp: 1739892318,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    conversation: 'Escribe un programa en Python que utilize un ciclo para sumar 50 números naturales e imprima el resultado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Escribe un programa en Python que utilize un ciclo para sumar 50 números naturales e imprima el resultado',
+  from: '5214491043242'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3F8F8D2DB77F18405C1E',
+    participant: undefined
+  },
+  messageTimestamp: 1739892647,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Consultar',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Consultar',
+  from: '5214491043242'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
+  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  answer: 'Por favor, dime tu pregunta:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3FA82748954176597646',
+    participant: undefined
+  },
+  messageTimestamp: 1739892670,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'en python escribe un programa que Solicite un numero al usuario y cuenta cuantos numeros impares hay entre 1 y ese numero, mostrando el resultado',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'en python escribe un programa que Solicite un numero al usuario y cuenta cuantos numeros impares hay entre 1 y ese numero, mostrando el resultado',
+  from: '5214491043242'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3F87AFB7319DB4246F67',
+    participant: undefined
+  },
+  messageTimestamp: 1739893019,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Consultar',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Consultar',
+  from: '5214491043242'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
+  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  answer: 'Por favor, dime tu pregunta:',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3F3935F6B6B14506E801',
+    participant: undefined
+  },
+  messageTimestamp: 1739893044,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'Escribe un programa en Python que Pida al usuario un numero enero positivo y usa un bucle for para calcular su factorial',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Escribe un programa en Python que Pida al usuario un numero enero positivo y usa un bucle for para calcular su factorial',
+  from: '5214491043242'
+}
