@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "base-baileys-memory/app.js",
+        "src": "base-baileys-memory/index.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "base-baileys-memory/app.js"
+        "dest": "base-baileys-memory/index.js"
       }
     ]
   }
