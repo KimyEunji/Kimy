@@ -2,26 +2,28 @@
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '68A7A22C71EFB6DA1328A3FCC57BD0AE',
+    id: '3FB62D8BCD2E586F3F7C',
     participant: undefined
   },
-  messageTimestamp: 1739892260,
+  messageTimestamp: 1739893913,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
-    conversation: 'Consultar',
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'consultar',
+      contextInfo: [ContextInfo]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
+      deviceListMetadataVersion: 2
     }
   },
-  body: 'Consultar',
+  body: 'consultar',
   from: '5214491043242'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
-  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
+  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
   answer: 'Por favor, dime tu pregunta:',
   options: {
     media: null,
@@ -35,42 +37,21 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: 'FF682B09555496305951EB0ABFE0CF8F',
+    id: '3FE86C663840B4631438',
     participant: undefined
   },
-  messageTimestamp: 1739892318,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    conversation: 'Escribe un programa en Python que utilize un ciclo para sumar 50 números naturales e imprima el resultado',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'Escribe un programa en Python que utilize un ciclo para sumar 50 números naturales e imprima el resultado',
-  from: '5214491043242'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3F8F8D2DB77F18405C1E',
-    participant: undefined
-  },
-  messageTimestamp: 1739892647,
+  messageTimestamp: 1739893921,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Consultar',
+      text: 'dame la raíz de 0',
       contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
@@ -78,12 +59,93 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Consultar',
+  body: 'dame la raíz de 0',
+  from: '5214491043242'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3FE87ACF011197DF65B9',
+    participant: undefined
+  },
+  messageTimestamp: 1739893952,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: "puta']", contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: "puta']",
   from: '5214491043242'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
-  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  ref: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
+  keyword: 'key_49770932-34a4-45d1-b814-77b5ac8de67e',
+  answer: '🙌 ¡Hola, bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '797bb852e3ca365ab0b3bb61636b94b5'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b3de302-e26d-4ebc-a64c-76e0e957b13a',
+  keyword: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
+  answer: 'Hola, soy Kimy Minji.IA\n' +
+    'tu asistente personal de WhatsApp\n' +
+    'desarrollada por el equipo de KimyCompany',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a1e11a01a9892907dfdf8be345995bde'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3FB793D738087BCB250F',
+    participant: undefined
+  },
+  messageTimestamp: 1739894002,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'consultar',
+      contextInfo: [ContextInfo]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'consultar',
+  from: '5214491043242'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
+  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
   answer: 'Por favor, dime tu pregunta:',
   options: {
     media: null,
@@ -97,44 +159,41 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '3FA82748954176597646',
+    id: '3FA01A029E472E19B4B7',
     participant: undefined
   },
-  messageTimestamp: 1739892670,
+  messageTimestamp: 1739894007,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'en python escribe un programa que Solicite un numero al usuario y cuenta cuantos numeros impares hay entre 1 y ese numero, mostrando el resultado',
-      contextInfo: [ContextInfo]
-    },
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'en python escribe un programa que Solicite un numero al usuario y cuenta cuantos numeros impares hay entre 1 y ese numero, mostrando el resultado',
+  body: 'hola',
   from: '5214491043242'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '3F87AFB7319DB4246F67',
+    id: '3FEA1B0A4E8076EDA904',
     participant: undefined
   },
-  messageTimestamp: 1739893019,
+  messageTimestamp: 1739894055,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Consultar',
+      text: 'consultar',
       contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
@@ -142,12 +201,12 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Consultar',
+  body: 'consultar',
   from: '5214491043242'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_419eb283-7253-49e1-9992-363ee0baede8',
-  keyword: 'key_9e65049f-8c82-4f9a-9e34-c67ec3ae2830',
+  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
+  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
   answer: 'Por favor, dime tu pregunta:',
   options: {
     media: null,
@@ -161,21 +220,21 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '15fe15c8d5a32e14b212a6d30566330c'
+  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '3F3935F6B6B14506E801',
+    id: '3FB7C806C9141F60D061',
     participant: undefined
   },
-  messageTimestamp: 1739893044,
+  messageTimestamp: 1739894073,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
     extendedTextMessage: ExtendedTextMessage {
-      text: 'Escribe un programa en Python que Pida al usuario un numero enero positivo y usa un bucle for para calcular su factorial',
+      text: 'por que ere suna puta zorra hija de tu puta madre',
       contextInfo: [ContextInfo]
     },
     messageContextInfo: MessageContextInfo {
@@ -183,6 +242,64 @@
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Escribe un programa en Python que Pida al usuario un numero enero positivo y usa un bucle for para calcular su factorial',
+  body: 'por que ere suna puta zorra hija de tu puta madre',
   from: '5214491043242'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5214491043242@s.whatsapp.net',
+    fromMe: false,
+    id: '3F658162913F584B63C5',
+    participant: undefined
+  },
+  messageTimestamp: 1739894088,
+  pushName: '《♧Ares Almazan♧》',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'puta.', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'puta.',
+  from: '5214491043242'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
+  keyword: 'key_49770932-34a4-45d1-b814-77b5ac8de67e',
+  answer: '🙌 ¡Hola, bienvenido!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '797bb852e3ca365ab0b3bb61636b94b5'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b3de302-e26d-4ebc-a64c-76e0e957b13a',
+  keyword: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
+  answer: 'Hola, soy Kimy Minji.IA\n' +
+    'tu asistente personal de WhatsApp\n' +
+    'desarrollada por el equipo de KimyCompany',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a1e11a01a9892907dfdf8be345995bde'
 }
