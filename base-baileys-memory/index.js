@@ -102,7 +102,7 @@ const main = async () => {
 
   // Ruta para mostrar el QR generado
   app.get('/', (req, res) => {
-    res.send('<h1>¡Bienvenido! El robot está funcionando.</h1><br><img src="/qr" />');
+    res.send('<h1>¡Bienvenido! Escanea este QR para conectar el Bot de Whatsapp.</h1><br><img src="/qr" />');
   });
 
   // Ruta para mostrar el QR en formato de imagen desde el archivo 'bot.qr.png'
