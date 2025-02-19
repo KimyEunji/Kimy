@@ -2,28 +2,26 @@
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '3FB62D8BCD2E586F3F7C',
+    id: 'BE55311F4F467A2689DE90CDFC092682',
     participant: undefined
   },
-  messageTimestamp: 1739893913,
+  messageTimestamp: 1739929988,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'consultar',
-      contextInfo: [ContextInfo]
-    },
+    conversation: 'Consultar',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'consultar',
+  body: 'Consultar',
   from: '5214491043242'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
-  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
+  ref: 'ans_24cf25c1-d4d7-46e3-8e96-643cc2209bed',
+  keyword: 'key_4526a14e-2d54-407d-aff8-7d7c89131c2b',
   answer: 'Por favor, dime tu pregunta:',
   options: {
     media: null,
@@ -37,269 +35,26 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
+  refSerialize: 'de9a9fa34a2d93fdc2ac8e52da346a8a'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5214491043242@s.whatsapp.net',
     fromMe: false,
-    id: '3FE86C663840B4631438',
+    id: 'D324D0499807EFCAFF9620E6DAC70A70',
     participant: undefined
   },
-  messageTimestamp: 1739893921,
+  messageTimestamp: 1739930005,
   pushName: '《♧Ares Almazan♧》',
   broadcast: false,
   message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'dame la raíz de 0',
-      contextInfo: [ContextInfo]
-    },
+    conversation: 'Cual es la capital de París?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
     }
   },
-  body: 'dame la raíz de 0',
+  body: 'Cual es la capital de París?',
   from: '5214491043242'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3FE87ACF011197DF65B9',
-    participant: undefined
-  },
-  messageTimestamp: 1739893952,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: "puta']", contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: "puta']",
-  from: '5214491043242'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
-  keyword: 'key_49770932-34a4-45d1-b814-77b5ac8de67e',
-  answer: '🙌 ¡Hola, bienvenido!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 2000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '797bb852e3ca365ab0b3bb61636b94b5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0b3de302-e26d-4ebc-a64c-76e0e957b13a',
-  keyword: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
-  answer: 'Hola, soy Kimy Minji.IA\n' +
-    'tu asistente personal de WhatsApp\n' +
-    'desarrollada por el equipo de KimyCompany',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'a1e11a01a9892907dfdf8be345995bde'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3FB793D738087BCB250F',
-    participant: undefined
-  },
-  messageTimestamp: 1739894002,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'consultar',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'consultar',
-  from: '5214491043242'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
-  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
-  answer: 'Por favor, dime tu pregunta:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3FA01A029E472E19B4B7',
-    participant: undefined
-  },
-  messageTimestamp: 1739894007,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'hola',
-  from: '5214491043242'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3FEA1B0A4E8076EDA904',
-    participant: undefined
-  },
-  messageTimestamp: 1739894055,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'consultar',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'consultar',
-  from: '5214491043242'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_135c8dce-ed2c-49cb-8d4e-0051b8b5e08e',
-  keyword: 'key_f5ef201f-d8d2-4ca8-aee1-711bc36d907b',
-  answer: 'Por favor, dime tu pregunta:',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '7419ff4284cff9c00d4ee309c67d672c'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3FB7C806C9141F60D061',
-    participant: undefined
-  },
-  messageTimestamp: 1739894073,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'por que ere suna puta zorra hija de tu puta madre',
-      contextInfo: [ContextInfo]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'por que ere suna puta zorra hija de tu puta madre',
-  from: '5214491043242'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5214491043242@s.whatsapp.net',
-    fromMe: false,
-    id: '3F658162913F584B63C5',
-    participant: undefined
-  },
-  messageTimestamp: 1739894088,
-  pushName: '《♧Ares Almazan♧》',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage { text: 'puta.', contextInfo: [ContextInfo] },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'puta.',
-  from: '5214491043242'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
-  keyword: 'key_49770932-34a4-45d1-b814-77b5ac8de67e',
-  answer: '🙌 ¡Hola, bienvenido!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 2000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '797bb852e3ca365ab0b3bb61636b94b5'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0b3de302-e26d-4ebc-a64c-76e0e957b13a',
-  keyword: 'ans_2dff0029-5edf-40df-9c70-a841121287dc',
-  answer: 'Hola, soy Kimy Minji.IA\n' +
-    'tu asistente personal de WhatsApp\n' +
-    'desarrollada por el equipo de KimyCompany',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'a1e11a01a9892907dfdf8be345995bde'
 }

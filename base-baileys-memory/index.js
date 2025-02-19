@@ -4,16 +4,6 @@ import QRPortalWeb from '@bot-whatsapp/portal';
 import BaileysProvider from '@bot-whatsapp/provider/baileys';
 import MockAdapter from '@bot-whatsapp/database/mock';
 import fetch from 'node-fetch'; // Importamos fetch para hacer llamadas HTTP
-import express from 'express'; // Importamos Express
-import { fileURLToPath } from 'url'; // Para manejar rutas en módulos ES
-import path from 'path'; // Para manejar rutas de archivos
-
-// Obtener la ruta del directorio actual en un módulo ES
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Ruta del archivo QR generado (bot.qr.png)
-const QR_FILE_PATH = path.join(__dirname, 'bot.qr.png'); // Asegúrate de que la ruta sea correcta
 
 // Función para comunicarse con la API de Ollama
 const processMessage = async (message) => {
@@ -94,32 +84,9 @@ const main = async () => {
     database: adapterDB,
   });
 
-  // Inicia QRPortalWeb en el puerto 3000
+  // Configuración de QRPortalWeb
   QRPortalWeb();
-
-  // Crear aplicación Express en el puerto 4000
-  const app = express();
-
-  // Ruta para mostrar el QR generado
-  app.get('/', (req, res) => {
-    res.send('<h1>¡Bienvenido! Escanea este QR para conectar el Bot de Whatsapp.</h1><br><img src="/qr" />');
-  });
-
-  // Ruta para mostrar el QR en formato de imagen desde el archivo 'bot.qr.png'
-  app.get('/qr', (req, res) => {
-    res.sendFile(QR_FILE_PATH, (err) => {
-      if (err) {
-        console.error("Error al enviar el QR:", err);
-        res.status(500).send('Error al cargar el QR');
-      }
-    });
-  });
-
-  // Configurar Express para que escuche en el puerto 4000
-  app.listen(4000, () => {
-    console.log('Servidor Express escuchando en el puerto 4000');
-  });
 };
 
-// Llamamos a la función main para iniciar todo
+// Llamada a la función main para iniciar el bot
 main();
